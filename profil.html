@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profil</title>
+</head>
+
+<header>Profil</header>
+
+<nav>
+    <a href="profil.html">Profil</a>
+    <a href="skill.html">Skill</a>
+    <a href="aboutme.html">Tentang</a>
+    <a href="contact.html">Kontak</a>
+</nav>
+
+<div class="content-container">
+
+    <img src="img/image.png" alt="">
+    <div class="teks">
+        <h1 class="pad">Halo, saya Afgan.</h1><br>
+        <h4 class="pad1">Saya adalah seorang pelajar di sekolah SMK LETRIS INDONESIA 2 yang memiliki ketertarikan besar
+            pada bidang coding dan teknologi informasi.</h4>
+    </div>
+
+    <!-- Welcome Modal -->
+    <div class="welcome-modal" id="welcome-modal">
+        <div class="welcome-content">
+            <h2>Selamat Datang</h2>
+            <p>Terima Kasih Telah Berkunjung</p>
+            <button onclick="closeWelcome()">Oke</button>
+        </div>
+    </div>
+
+    <script>
+        function closeWelcome() {
+            document.getElementById('welcome-modal').style.display = 'none';
+        }
+    </script>
+    </body>
+
+</html>
